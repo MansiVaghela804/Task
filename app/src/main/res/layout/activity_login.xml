@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="223dp"
+        android:background="#2d52d9">
+
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOGIN"
+                android:textSize="29dp"
+                android:textStyle="bold"
+                android:textColor="#2d52d9" />
+
+            <EditText
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:hint="Email" />
+
+            <EditText
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:hint="Password" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:background="#2d52d9"
+                android:text="Login"
+                android:textColor="#fff"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
