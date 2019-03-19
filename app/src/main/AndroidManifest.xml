@@ -21,15 +21,9 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
         <activity android:name=".CaptureImageDisplayActivity" />
-        <activity android:name=".TabLayoutActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".TabLayoutActivity" />
         <activity android:name=".ListViewActivity" />
-        <activity android:name=".WebViewLoadActivity" />
+        <activity android:name=".WebViewLoadActivity"> </activity>
         <activity android:name=".AlertDialogActivity" />
         <activity android:name=".AlarmManagerActivity" />
 
@@ -53,9 +47,17 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name=".SumActivity"></activity>
+        <activity android:name=".SumActivity" />
         <activity android:name=".ChangeLanguageActivity" />
-        <activity android:name=".SharedPreferenceActivity"></activity>
-        <activity android:name=".SharedPreference2Activity"></activity>
+        <activity android:name=".SharedPreferenceActivity" />
+        <activity android:name=".SharedPreference2Activity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
+
 </manifest>

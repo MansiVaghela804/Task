@@ -34,7 +34,7 @@ public class WebViewLoadActivity extends AppCompatActivity {
                 wv1.getSettings().setLoadsImagesAutomatically(true);
                 wv1.getSettings().setJavaScriptEnabled(true);
                 wv1.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
-                wv1.loadUrl(url);
+                wv1.loadUrl("https://"+url);
             }
         });
     }
