@@ -18,18 +18,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ImageButtonDesign"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".MyGaanaActivity"></activity>
+        <activity android:name=".SharedPrefernces" />
+        <activity android:name=".SharedPreferences.AddActivity" />
+        <activity android:name=".SharedPreferences.SharedpreferencesActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ImageButtonDesign" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".CaptureImageDisplayActivity" />
         <activity android:name=".TabLayoutActivity" />
-        <activity android:name=".ListViewActivity"></activity>
-        <activity android:name=".WebViewLoadActivity"></activity>
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".WebViewLoadActivity" />
         <activity android:name=".AlertDialogActivity" />
         <activity android:name=".AlarmManagerActivity" />
 

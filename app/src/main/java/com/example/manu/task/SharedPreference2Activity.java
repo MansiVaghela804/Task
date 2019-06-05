@@ -30,7 +30,7 @@ public class SharedPreference2Activity extends AppCompatActivity {
 
     public void Load(View view) {
         SharedPreferences sharedPreferences = getSharedPreferences("MyPREFERENCES", Context.MODE_PRIVATE);
-//        SharedPreferences.Editor editor = sharedPreferences.edit();
+//        com.example.manu.task.SharedPreferences.Editor editor = sharedPreferences.edit();
         String text1 = sharedPreferences.getString("key1", Default);
         String text2 = sharedPreferences.getString("key2", Default);
         if (text1.equals(Default) || text2.equals(Default)) {
